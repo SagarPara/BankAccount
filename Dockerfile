@@ -1,5 +1,5 @@
 # Use official Python slim image
-FROM python:3.13-slim-bullseye
+FROM python:3.12.10-slim-bullseye
 
 # Set working directory
 WORKDIR /docker
