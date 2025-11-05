@@ -1,6 +1,5 @@
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, START, END
-from IPython.display import display
 from pydantic import BaseModel, Field
 from typing_extensions import TypedDict
 from langgraph.graph.message import add_messages
